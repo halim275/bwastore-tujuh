@@ -9,7 +9,7 @@ class Category extends Model
 {
 	use SoftDeletes;
 
-	protected $fiilable = [
+	protected $fillable = [
 		'name', 'photo', 'slug'
 	];
 
